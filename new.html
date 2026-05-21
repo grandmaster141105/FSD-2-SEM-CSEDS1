@@ -1,8 +1,82 @@
 <!DOCTYPE html>
-<html lang="en"
+<html>
 <head>
-    <meta charset="UTF 8"
-    <
+    <title>Restaurant Menu</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e5;
+            margin: 0;
+            padding: 0;
+        }
 
+        .menu {
+            width: 60%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            text-align: center;
+            color: #b22222;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #b22222;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dotted gray;
+        }
+
+        span {
+            font-weight: bold;
+            color: #b22222;
+        }
+    </style>
 </head>
+<body>
+    <div class="menu">
+        <h1> Shreya's Restaurant</h1>
+
+        <h2>Starters</h2>
+        <ul>
+            <li>Tomato Soup <span>$12</span></li>
+            <li>Paneer Tikka <span>$22</span></li>
+            <li>Veg Manchurian <span>$18</span></li>
+        </ul>
+
+        <h2>Main Course</h2>
+        <ul>
+            <li>Butter Paneer <span>$25</span></li>
+            <li>Veg Biryani <span>$20</span></li>
+            <li>Dal Makhani <span>$19</span></li>
+            <li>Chilli paneer <span>$20 </span></li>
+        </ul>
+
+        <h2>Desserts</h2>
+        <ul>
+            <li>Gulab Jamun <span>$9</span></li>
+            <li>Ice Cream <span>$11</span></li>
+            <li>Brownie <span>$15</span></li>
+            <li>chocolate mud <span>$13</span></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
